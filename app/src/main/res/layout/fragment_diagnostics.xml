@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBlue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="DIAGNOSTICS"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="NOTHING"
+        android:visibility="gone"
+
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAbsfault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:backgroundTint="#002d57"
+            android:text="ABS SYSTEM FAULT"
+            android:textColor="#ffffff" />
+
+
+
+        <Button
+            android:visibility="gone"
+
+            android:id="@+id/btnExhaustFault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#002d57"
+            android:text="EXHAUST SYSTEM FAULT"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnIgnitionFault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+
+            android:backgroundTint="#002d57"
+            android:text="IGNITION SYSTEM FAULT"
+            android:textColor="#ffffff" />
+
+
+
+        <Button
+            android:id="@+id/btnCoolantFault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+
+            android:backgroundTint="#002d57"
+            android:text="COOLING SYSTEM FAULT"
+            android:textColor="#ffffff" />
+</LinearLayout>
